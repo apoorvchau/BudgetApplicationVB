@@ -98,6 +98,18 @@
     <Compile Include="ActualForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AddForm.Designer.vb">
+      <DependentUpon>AddForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteForm.Designer.vb">
+      <DependentUpon>DeleteForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ExpectedExpenseDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -131,10 +143,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="UpdateForm.Designer.vb">
+      <DependentUpon>UpdateForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ActualForm.resx">
       <DependentUpon>ActualForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForm.resx">
+      <DependentUpon>AddForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteForm.resx">
+      <DependentUpon>DeleteForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ExpectedForm.resx">
       <DependentUpon>ExpectedForm.vb</DependentUpon>
@@ -147,6 +171,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateForm.resx">
+      <DependentUpon>UpdateForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
